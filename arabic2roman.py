@@ -36,7 +36,7 @@ def int_to_roman(integer):
         the 'result' list will be need to contains the results of each for loop.
         the 'cnt_parens' field will be increased every time the built-in function divmod() return a remainder == 0.
         This is necessary because in the roman-numeral system every number over 3999 must be enclosed in two
-        extra signs e.g. 50.000 will be (XII) MM, or 12*4000+1000+1000.
+        extra signs e.g. 50.000 will be (XII) MM, or (12*4000)+(1000+1000).
         The built-in divmod() function does the actual work, it take two (non complex) numbers as arguments and return
         a pair of numbers consisting of their quotient and remainder. Iterating over 'roman_list', every time the
         quotient > 0 the corresponding roman-numeral symbol will be added to 'roman_result' so many times as the quotient value.
