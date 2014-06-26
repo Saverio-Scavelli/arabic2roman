@@ -28,7 +28,6 @@ roman_list = [
     (1, "I")
 ]
 
-
 def int_to_roman(integer):
     '''
         Core function of the program.
