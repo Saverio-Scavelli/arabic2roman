@@ -60,8 +60,6 @@ def int_to_roman(integer):
     return ' '.join(result[::-1])
 
 
-print int_to_roman(5001)
-
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description="Convert an arabic number (decimal system) "
